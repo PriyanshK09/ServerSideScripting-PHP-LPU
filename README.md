@@ -12,6 +12,7 @@ This repository contains all codes and notes shared during Class Hours. This rep
 ## Class Tasks
 - [Task 1](Task 1) - E Commerce HTML Page in 30 min
 - [Task 2](Task 2) - Operators in PHP
+- [Task 3](Task 3) - Ternary Operator in PHP
 
 
 ## PHP Basics
