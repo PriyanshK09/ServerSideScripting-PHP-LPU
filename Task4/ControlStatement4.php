@@ -21,6 +21,7 @@ switch ($mealType) {
         echo "1. Aloo Paratha\n";
         echo "2. Poha\n";
         echo "3. Upma\n";
+        echo "4. Sandwich\n";
         $breakfastItem = readline("Enter your choice: ");
         switch ($breakfastItem) {
             case 1:
@@ -41,6 +42,7 @@ switch ($mealType) {
         echo "1. Roti Sabji\n";
         echo "2. Fried Rice\n";
         echo "3. Pulao\n";
+        echo "4. Dosa\n";
         $lunchItem = readline("Enter your choice: ");
         switch ($lunchItem) {
             case 1:
@@ -61,6 +63,7 @@ switch ($mealType) {
         echo "1. Rajma Chawal\n";
         echo "2. Pizza\n";
         echo "3. Paneer Tikka\n";
+        echo "4. Idli Sambhar\n";
         $dinnerItem = readline("Enter your choice: ");
         switch ($dinnerItem) {
             case 1:
@@ -81,6 +84,7 @@ switch ($mealType) {
         echo "1. Chips\n";
         echo "2. Popcorn\n";
         echo "3. Nachos\n";
+        echo "4. Ice Cream\n";
         $snackItem = readline("Enter your choice: ");
         switch ($snackItem) {
             case 1:
