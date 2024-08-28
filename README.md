@@ -76,7 +76,7 @@ This repository contains all codes and notes shared during Class Hours. This rep
   - String operators
   - Array operators
 
-## PHP Conditional Statements
+## PHP Conditional Statements (Control Structures)
 - Conditional statements are used to perform different actions based on different conditions.
 - Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.
 - In PHP we have the following conditional statements:
