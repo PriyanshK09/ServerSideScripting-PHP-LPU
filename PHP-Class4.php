@@ -54,3 +54,12 @@ echo "I am already familiar with " . $ccourses[2] . " and " . $ccourses[3] . "<b
 echo count($ccourses);
 ?>
 
+<!-- Using For Each Loop with Array -->
+
+<?php
+$ccourses = array("PHP", "Laravel", "NodeJS", "ReactJS");
+
+foreach ($ccourses as $course) {
+    echo $course . "<br>";
+}
+?>
