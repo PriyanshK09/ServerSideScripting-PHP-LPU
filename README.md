@@ -9,12 +9,14 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Class 1](PHP1-Class1.php) - Introduction to PHP, PHP Syntax, Variables, Constants, Operators (Aug 18, 2024)
 - [Class 2](PHP2-Class2.php) - Read and Write PHP, Data Types, Constants, Operators (Aug 23, 2024)
 - [Class 3](PHP3-Class3.php) - Control Structure (Aug 28, 2024)
+- [Class 4](PHP4-Class4.php) - Loops (Aug 30, 2024)
 
 ## Class Tasks
 - [Task 1](Task1) - E Commerce HTML Page in 30 min
 - [Task 2](Task2) - Operators in PHP
 - [Task 3](Task3) - Ternary Operator in PHP
 - [Task 4](Task4) - Control Structure in PHP
+- [Task 5](Task5) - Loops in PHP
 
 
 ## PHP Basics
