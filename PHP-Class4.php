@@ -43,3 +43,14 @@ foreach ($colors as $color) {
     echo $color . "<br>";
 }
 ?>
+
+<!-- Indexed Arrays -->
+<!-- An indexed or numeric array stores each array element with a numeric index. -->
+
+<?php
+$ccourses = array("PHP", "Laravel", "NodeJS", "ReactJS");
+echo "I am learning " . $ccourses[0] . " and " . $ccourses[1] . "<br>";
+echo "I am already familiar with " . $ccourses[2] . " and " . $ccourses[3] . "<br>";
+echo count($ccourses);
+?>
+
