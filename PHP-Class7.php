@@ -49,3 +49,11 @@ $student = [
     ]
 ];
 ?>
+
+<!-- Function -->
+
+<?php
+function fullName($fname="Priyansh", $lname="Khare")
+{
+    echo "Full Name: $fname $lname";
+}
