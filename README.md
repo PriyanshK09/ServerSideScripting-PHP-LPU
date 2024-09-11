@@ -11,6 +11,8 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Class 3](PHP3-Class3.php) - Control Structure (Aug 28, 2024)
 - [Class 4](PHP4-Class4.php) - Loops (Aug 30, 2024)
 - [Class 5](PHP5-Class5.php) - Array (Sep 4, 2024)
+- [Class 6](PHP6-Class6.php) - Multidimensional Array (Sep 10, 2024)
+- [Class 7](PHP7-Class7.php) - Multidimensional Array (Sep 11, 2024)
 
 ## Class Tasks
 - [Task 1](Task1) - E Commerce HTML Page in 30 min
@@ -19,6 +21,7 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Task 4](Task4) - Control Structure in PHP
 - [Task 5](Task5) - Loops in PHP
 - [Task 6](Task6) - Array in PHP
+- [Task 7](Task7) - Multidimensional Array in PHP
 
 
 ## PHP Basics
