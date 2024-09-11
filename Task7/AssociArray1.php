@@ -1,7 +1,7 @@
-Create a PHP Script that stores students data in a Multidimensional Associative Array.
+<!-- Create a PHP Script that stores students data in a Multidimensional Associative Array.
 Each student has a name, a list of subjects, and grades for each subject.
 The program should calculate the average grade for each student and display the student's name, 
-their subjects with grades, and the overall average grade in a table format.
+their subjects with grades, and the overall average grade in a table format. -->
 
 <?php
 $student = [
