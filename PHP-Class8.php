@@ -32,3 +32,30 @@ echo "Subtraction: " . subtract(10, 5) . "\n";
 echo "Multiplication: " . multiply(10, 5) . "\n";
 echo "Division: " . divide(10, 5) . "\n";
 ?>
+
+
+<!-- Swapping -->
+<!-- Swapping is the process of exchanging the values of two variables.
+    This is a common operation in programming and can be done using a temporary variable or without one. -->
+
+<?php
+// Swapping with a temporary variable
+$a = 10;
+$b = 20;
+
+$temp = $a;
+$a = $b;
+$b = $temp;
+
+echo "a = $a, b = $b\n";
+
+// Swapping without a temporary variable
+$a = 10;
+$b = 20;
+
+$a = $a + $b;
+$b = $a - $b;
+$a = $a - $b;
+
+echo "a = $a, b = $b\n";
+?>
