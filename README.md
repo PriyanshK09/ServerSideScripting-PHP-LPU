@@ -14,6 +14,7 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Class 6](PHP6-Class6.php) - Multidimensional Array (Sep 10, 2024)
 - [Class 7](PHP7-Class7.php) - Multidimensional Array (Sep 11, 2024)
 - [Class 8](PHP8-Class8.php) - Functions (Sep 13, 2024)
+- [Class 9](PHP9-Class9.php) - Scopes (Sep 16, 2024)
 
 ## Class Tasks
 - [Task 1](Task1) - E Commerce HTML Page in 30 min
