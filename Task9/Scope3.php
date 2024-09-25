@@ -7,15 +7,14 @@ function Outer() {
     $a = "This is Outer Function";
 
     function Inner() {
-        global $a;
-        $a = "This is Inner Function";
-        echo $a;
+        $GLOBALS['a'] = "This is Inner Function";
+        echo $GLOBALS['a'];
         echo "\n";
     }
 
     Inner();
 
-    echo $a;
+    echo $GLOBALS['a'];
     echo "\n";
 }
 
