@@ -48,9 +48,11 @@
     $string = "Hello How are you";
     print_r(explode(" ", $string)); // Array ( [0] => Hello [1] => How [2] => are [3] => you )
     print_r(explode(" ", $string, 2)); // Array ( [0] => Hello [1] => How are you )
+    print_r(explode(" ", $string, 4)); // Array ( [0] => Hello [1] => How [2] => are [3] => you )
     // Explode function breaks the string into an array
     // explode(separator, string, limit)
     // separator - Required. Specifies where to break the string
     // string - Required. The string to break
     // limit - Optional. Specifies the number of array elements to return
 ?>
+
