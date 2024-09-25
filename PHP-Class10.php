@@ -56,3 +56,8 @@
     // limit - Optional. Specifies the number of array elements to return
 ?>
 
+<!-- INCLUDE Keyword using Variable of one file in other -->
+<?php
+    include 'PHP-Class9.php';
+    echo $globalVar;
+?>
