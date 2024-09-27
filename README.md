@@ -16,6 +16,7 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Class 8](PHP8-Class8.php) - Functions (Sep 13, 2024)
 - [Class 9](PHP9-Class9.php) - Scopes (Sep 16, 2024)
 - [Class 10](PHP10-Class10.php) - String Functions (Sep 25, 2024)
+- [Class 11](PHP11-Class11.php) - Superglobals (Sep 27, 2024)
 
 ## Class Tasks
 - [Task 1](Task1) - E Commerce HTML Page in 30 min
@@ -28,6 +29,7 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Task 8](Task8) - Functions in PHP
 - [Task 9](Task9) - Scopes in PHP
 - [Task 10](Task10) - String Functions in PHP
+- [Task 11](Task11) - Superglobals in PHP
 
 
 ## PHP Basics

@@ -1,0 +1,29 @@
+<!-- Multistep Form -->
+<!-- Create a Two Step form where the first page collect the user's name and email, -->
+<!-- and the second page asks for their phone number and address. -->
+<!-- Use $_REQUEST to pass the data between the steps. -->
+<!-- Requirements : -->
+<!-- 1. On the first page, create a form with name and email fields. -->
+<!-- 2. On the second page, create a form with phone number and address fields. -->
+<!-- 3. Use $_REQUEST to display all the collected data on the second page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Step 1</title>
+</head>
+<body>
+    <h1>Step 1: Enter Name and Email</h1>
+    <form action="Form2.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="Next">
+    </form>
+</body>
+</html>
