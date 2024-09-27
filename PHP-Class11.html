@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Form Example</title>
+</head>
+<body>
+    <h2>Form with GET and POST Methods</h2>
+    
+    <!-- Form with GET method -->
+    <form action="PHP-Class11.php" method="GET">
+        <label for="getName">Enter your name (GET):</label>
+        <input type="text" id="getName" name="getName">
+        <input type="submit" value="Submit GET">
+    </form>
+
+    <!-- Form with POST method -->
+    <form action="PHP-Class11.php" method="POST">
+        <label for="postName">Enter your name (POST):</label>
+        <input type="text" id="postName" name="postName">
+        <input type="submit" value="Submit POST">
+    </form>
+    
+    <!-- Form using $_REQUEST -->
+    <form action="PHP-Class11.php" method="POST">
+        <label for="requestName">Enter your name ($_REQUEST):</label>
+        <input type="text" id="requestName" name="requestName">
+        <input type="submit" value="Submit $_REQUEST">
+    </form>
+</body>
+</html>
