@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Form Validation Example</title>
+    <style>
+        #required {
+            color: red;
+        }
+    </style>
+    <script>
+        function validateForm(event) {
+            event.preventDefault(); // Prevent form submission
+
+            let name = document.forms["myForm"]["name"].value;
+            let email = document.forms["myForm"]["email"].value;
+            let website = document.forms["myForm"]["website"].value;
+            let gender = document.forms["myForm"]["gender"].value;
+            let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+            let websitePattern = /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w .-]*)*\/?$/;
+
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            if (email == "" || !emailPattern.test(email)) {
+                alert("Please enter a valid email address");
+                return false;
+            }
+            if (website == "" || !websitePattern.test(website)) {
+                alert("Please enter a valid website URL");
+                return false;
+            }
+            if (gender == "") {
+                alert("Gender must be selected");
+                return false;
+            }
+
+            displayOutput(name, email, website, gender);
+            return false; // Prevent form submission for demonstration purposes
+        }
+
+        function displayOutput(name, email, website, gender) {
+            let output = `
+                <p>Name: ${name}</p>
+                <p>Email: ${email}</p>
+                <p>Website: ${website}</p>
+                <p>Gender: ${gender}</p>
+            `;
+            document.getElementById("output").innerHTML = output;
+        }
+    </script>
+</head>
+<body>
+    <h2>PHP Form Validation Example</h2>
+    <p><span id="required"> * required field</span></p>
+    <form name="myForm" method="post" action="" onsubmit="return validateForm(event)">
+        Name: <input type="text" name="name"> <span id="required"> *</span>
+        <br><br>
+        E-mail: <input type="text" name="email"> <span id="required"> *</span>
+        <br><br>
+        Website: <input type="text" name="website"> <span id="required"> *</span>
+        <br><br>
+        Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+        <br><br>
+        Gender:
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="other">Other <span id="required"> *</span>
+        <br><br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <p><b>Your Input:</b></p>
+    <span id="output"></span>
+</body>
+</html>
