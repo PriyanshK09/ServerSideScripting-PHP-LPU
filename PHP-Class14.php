@@ -11,7 +11,7 @@ if (isset($_POST['theme'])) {
     } else {
         setcookie('theme', 'light', time() + (86400 * 30), "/"); // Set cookie for light theme
     }
-    header("Location: " . $_SERVER['PHP_SELF']);
+    header("Refresh:0");
     exit;
 }
 
