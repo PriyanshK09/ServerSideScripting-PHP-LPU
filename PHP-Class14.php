@@ -28,10 +28,11 @@ if (isset($_COOKIE['theme'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dark Mode Preference</title>
+    <title>Theme Preference</title>
 </head>
 <body>
-    <h1>Dark Mode Preference</h1>
+    <h1>Theme Preference</h1>
+    <p>Current Theme: <?php echo isset($_COOKIE['theme']) ? $_COOKIE['theme'] : 'Light'; ?> Mode </p>
     <form method="post">
         <button type="submit" name="theme" value="light">Light Mode</button>
         <button type="submit" name="theme" value="dark">Dark Mode</button>
