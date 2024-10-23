@@ -35,6 +35,7 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Task 11](Task11) - Superglobals in PHP
 - [Task 12](Task12) - Forms in PHP
 - [Task 13](Task13) - Cookies in PHP
+- [Task 14](Task14) - Sanitize in PHP
 
 
 ## PHP Basics
