@@ -28,9 +28,14 @@
     <h2>Gallery</h2>
     <div>
         <?php
-        $images = glob("uploads/*.{jpg,jpeg,png,gif}", GLOB_BRACE);
-        foreach ($images as $image) {
-            echo '<img src="' . $image . '" alt="Image" style="width:200px; margin:10px;">';
+        $dir = 'uploads/';
+        if (is_dir($dir)) {
+            $files = scandir($dir);
+            foreach ($files as $file) {
+                if ($file != '.' && $file != '..' && (strpos($file, '.jpg') !== false || strpos($file, '.jpeg') !== false || strpos($file, '.png') !== false || strpos($file, '.gif') !== false)) {
+                    echo '<img src="' . $dir . $file . '" alt="Image" style="width:200px; margin:10px;">';
+                }
+            }
         }
         ?>
     </div>
