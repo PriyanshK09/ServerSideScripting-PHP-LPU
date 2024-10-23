@@ -16,6 +16,9 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $url = $_POST["url"];
         
+        // Sanitize URL
+        $sanitized_url = filter_var($url, FILTER_SANITIZE_URL);
+        
         // Validate URL
         if (filter_var($sanitized_url, FILTER_VALIDATE_URL)) {
             echo "The URL is valid: " . $sanitized_url;
