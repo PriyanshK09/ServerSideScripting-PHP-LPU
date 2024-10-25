@@ -20,8 +20,8 @@ This repository contains all codes and notes shared during Class Hours. This rep
 - [Class 12](PHP12-Class12.php) - Forms (Oct 11, 2024)
 - [Class 13](PHP13-Class13.php) - Forms (Oct 13, 2024)
 - [Class 14](PHP14-Class14.php) - Cookies (Oct 18, 2024)
-- [Class 15](PHP15-Class15.php) - Image Upload (Oct 20, 2024)
-- [Class 16](PHP16-Class16.php) - Mailing (Oct 25, 2024)
+- [Class 15](Task15/ImageUpload.php) - Image Upload (Oct 20, 2024)
+- [Class 16](Task15/MailTo.php) - Mailing (Oct 25, 2024) OOPS Concept (Oct 25, 2024)
 
 ## Class Tasks
 - [Task 1](Task1) - E Commerce HTML Page in 30 min
