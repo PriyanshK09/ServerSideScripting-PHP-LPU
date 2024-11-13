@@ -37,8 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <body>
         <h1>Login Form</h1>
         <form method="post" action="">
-            <input type="text" id="email" name="email" placeholder="Your Email"><br><br>
-            <input type="password" id="password" name="password" placeholder="Password"><br><br>
+            <input type="text" id="email" name="email" placeholder="Your Email"><br>
+            <input type="password" id="password" name="password" placeholder="Your Password"><br>
             <input type="submit" value="Login">
         </form>
         <?php if ($error): ?>
